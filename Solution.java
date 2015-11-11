@@ -25,7 +25,7 @@ public class Solution {
         threadB.setUncaughtExceptionHandler(handler);
 
         threadA.start();
-
+        threadB.start();
 
         threadA.interrupt();
         threadB.interrupt();
